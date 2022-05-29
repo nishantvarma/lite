@@ -4,7 +4,7 @@ local common = require "core.common"
 local void = { common.color "#181818" }
 local black = { common.color "#222222" }
 local dark = { common.color "#4444444" }
-local light = { common.color "#888888" }
+local light = { common.color "#666666" }
 local white = { common.color "#d0d0d0" }
 local red = { common.color "#ff0000" }
 
@@ -16,7 +16,7 @@ style.caret = white
 style.accent = white
 style.dim = light
 style.divider = void
-style.selection = dark
+style.selection = light
 style.line_number = light
 style.line_number2 = white
 style.line_highlight = dark
