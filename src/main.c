@@ -92,7 +92,7 @@ int main(int argc, char **argv) {
   }
   else
   {
-    printf("Error loading run.lua.\n");
+    fprintf(stderr, "Error loading run.lua.\n" );
   }
 
   lua_close(L);
